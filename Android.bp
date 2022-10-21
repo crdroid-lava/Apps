@@ -1,0 +1,50 @@
+soong_namespace {
+}
+
+android_app_import {
+	name: "AsusCalculator",
+	owner: "Asus",
+	apk: "apks/AsusCalculator.apk",
+	presigned: true,
+	overrides: ["ExactCalculator"],
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "AsusClock",
+	owner: "Asus",
+	apk: "apks/AsusClock.apk",
+	presigned: true,
+	overrides: ["Contacts"],
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "Dialer",
+	owner: "AOSP",
+	apk: "apks/Dialer.apk",
+	presigned: true,
+	overrides: ["Dialer"],
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "GameSpace",
+	owner: "crDroid",
+	apk: "apks/GameSpace.apk",
+	presigned: true,
+	overrides: ["GameSpace"],
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
