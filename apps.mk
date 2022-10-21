@@ -4,5 +4,5 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
 	AsusCalculator \
 	AsusClock \
-    GameSpace \
-    Dialer
+    mGameSpace \
+    mDialer
