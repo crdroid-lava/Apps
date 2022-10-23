@@ -5,4 +5,6 @@ PRODUCT_PACKAGES += \
 	AsusCalculator \
 	AsusClock \
     mGameSpace \
+    mMessaging \
+    mContacts \
     mDialer
