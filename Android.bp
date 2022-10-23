@@ -18,7 +18,7 @@ android_app_import {
 	owner: "Asus",
 	apk: "apks/AsusClock.apk",
 	presigned: true,
-	overrides: ["Contacts"],
+	overrides: ["DeskClock"],
 	dex_preopt: {
 		enabled: false,
 	},
